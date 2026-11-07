@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
+<meta name="versao" content="2026-11-07">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Política de privacidade</title>
 <style>
@@ -16,24 +17,28 @@ p,li{margin:6px 0}ul{padding-left:20px}.data,nav{color:var(--suave);font-size:14
 <main>
 <nav><a href="privacidade.html" hreflang="pt-BR">Português</a> · <a href="privacy.html" hreflang="en">English</a> · <a href="privacidad.html" hreflang="es">Español</a></nav>
 <h1>Política de privacidade</h1>
-<p class="data">Avanthis Labs · CADEO · Última atualização: 6 de novembro de 2026</p>
+<p class="data">Avanthis Labs · CADEO · Última atualização: 7 de novembro de 2026</p>
 <p>Esta política explica como o app CADEO trata dados. Ela vale para o app Android publicado pela Avanthis Labs.</p>
 
 <h2>Resumo</h2>
 <ul>
-<li>A Avanthis Labs não recebe seus projetos, prompts, respostas nem credenciais.</li>
+<li>A Avanthis Labs não recebe seus projetos, prompts, respostas nem credenciais, a não ser o que você mandar numa denúncia.</li>
 <li>O app não tem anúncios, analytics nem relatório de falhas.</li>
 <li>Ao usar um agente, seus dados vão para o provedor de IA que você escolher, com a sua conta.</li>
 </ul>
 
 <h2>Dados que ficam no aparelho</h2>
 <p>O app guarda no seu aparelho projetos, terminais, notas, configurações e os logins dos agentes. Esses dados não vão para servidores da Avanthis Labs. O backup automático do Android está desligado para o app.</p>
+<p>Se você entrar com o Google, o e-mail e o nome da conta ficam só no aparelho, cifrados, para mostrar com qual conta você entrou. A data em que você aceitou os termos também fica no aparelho.</p>
+<p>Os dados não são separados por conta: quem usar o app neste aparelho vê os mesmos projetos, terminais e logins dos agentes, com ou sem conta Google.</p>
 
 <h2>Dados que saem do aparelho</h2>
 <p>Quando você usa o app, estes envios acontecem por sua ação:</p>
 <ul>
 <li><strong>Agentes de IA:</strong> prompts, respostas, imagens anexadas e arquivos do projeto que o agente ler vão para o provedor escolhido, como Anthropic, OpenAI ou Google.</li>
-<li><strong>Login:</strong> o e-mail e os dados da conta vão para o provedor da conta, no fluxo do próprio agente.</li>
+<li><strong>Login dos agentes:</strong> o e-mail e os dados da conta vão para o provedor da conta, no fluxo do próprio agente.</li>
+<li><strong>Conta Google do app:</strong> a escolha da conta acontece no próprio Google, que segue a política dele. O app recebe o e-mail e o nome e não os envia a ninguém.</li>
+<li><strong>Denúncias:</strong> ao denunciar uma resposta de agente, o app abre o seu e-mail endereçado à Avanthis Labs. Vão o motivo, os detalhes, o nome do terminal, o agente, o provedor, a data e, se você deixar, a resposta, com tokens e chaves apagados. Como em qualquer e-mail, recebemos também o seu endereço. Usamos para avaliar o caso e guardamos por até 12 meses. Quando couber, avisamos o provedor só com a resposta e o motivo, sem o seu e-mail.</li>
 <li><strong>Instalações:</strong> pedidos de pacotes e skills vão para serviços como npm e GitHub.</li>
 <li><strong>Terminal e pré-visualização web:</strong> vão para os endereços que você usar.</li>
 </ul>
@@ -49,6 +54,7 @@ p,li{margin:6px 0}ul{padding-left:20px}.data,nav{color:var(--suave);font-size:14
 
 <h2>Sua escolha</h2>
 <p>O app pede seu aceite antes do primeiro uso de um agente. Sem ele, o app funciona como terminal, e os agentes não abrem. Você pode mudar a decisão em Configurações › Segurança. Desligar não apaga o que o provedor já recebeu.</p>
+<p>Entrar com o Google é opcional. Para sair, use Configurações › Segurança › Conta Google: o e-mail e o nome guardados são apagados, e o resto continua no aparelho. Remover o acesso do app em <a href="https://myaccount.google.com/connections" target="_blank" rel="noopener">myaccount.google.com/connections</a> encerra a ligação no Google, mas só o Sair apaga o que está no aparelho.</p>
 
 <h2>Dados de outras pessoas</h2>
 <p>Seus projetos podem conter dados pessoais de terceiros. Você responde pelo que envia aos agentes.</p>
@@ -56,17 +62,17 @@ p,li{margin:6px 0}ul{padding-left:20px}.data,nav{color:var(--suave);font-size:14
 <h2>Segurança</h2>
 <p>A comunicação entre as partes internas do app fica no aparelho, protegida por um token que só existe em memória. Ações críticas pedem digital ou PIN quando o aparelho tem bloqueio de tela. A comunicação dos agentes com os provedores usa conexão criptografada. O que você digitar no terminal pode usar qualquer conexão, inclusive sem criptografia.</p>
 
-<h2>Guarda e exclusão</h2>
-<p>Os dados ficam no aparelho até você apagá-los. Use "Apagar tudo" nas configurações do app ou desinstale o app. Para o que está com um provedor, use os canais dele.</p>
+<h2 id="excluir">Guarda e exclusão</h2>
+<p>Os dados ficam no aparelho até você apagá-los. Use "Apagar todos os dados" em Configurações › Dados, que também tira a conta Google, ou desinstale o app. O registro do aceite dos termos fica até você desinstalar o app. Para o que está com um provedor, use os canais dele.</p>
 
 <h2>Seus direitos</h2>
-<p>A Lei Geral de Proteção de Dados (Lei 13.709/2018) garante direitos como confirmação, acesso, correção, eliminação e revogação do consentimento. Como a Avanthis Labs não recebe seus dados, a maior parte desses pedidos se resolve no app ou com o provedor. Para dúvidas, use o contato abaixo.</p>
+<p>A Lei Geral de Proteção de Dados (Lei 13.709/2018) garante direitos como confirmação, acesso, correção, eliminação e revogação do consentimento. O login Google se baseia no seu consentimento, que você revoga ao sair da conta. Fora as denúncias que você enviar, a Avanthis Labs não recebe seus dados, e a maior parte desses pedidos se resolve no app ou com o provedor. Para dúvidas, use o contato abaixo.</p>
 
 <h2>Crianças</h2>
 <p>O app é uma ferramenta de desenvolvimento e não é destinado a crianças.</p>
 
 <h2>Mudanças</h2>
-<p>Se o app passar a tratar novos dados, como login próprio ou licença, esta política será atualizada antes da mudança.</p>
+<p>Se o app passar a tratar novos dados, como licença ou um servidor da Avanthis Labs, esta política será atualizada antes da mudança.</p>
 
 <h2>Contato</h2>
 <p>Avanthis Labs (nome provisório). E-mail de privacidade: <a href="mailto:thbs.profissional@gmail.com">thbs.profissional@gmail.com</a>.</p>

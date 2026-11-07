@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
+<meta name="versao" content="2026-11-07">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Política de privacidad</title>
 <style>
@@ -16,21 +17,25 @@ p,li{margin:6px 0}ul{padding-left:20px}.data,nav{color:var(--suave);font-size:14
 <main>
 <nav><a href="privacidade.html" hreflang="pt-BR">Português</a> · <a href="privacy.html" hreflang="en">English</a> · <a href="privacidad.html" hreflang="es">Español</a></nav>
 <h1>Política de privacidad</h1>
-<p class="data">Avanthis Labs · CADEO · Última actualización: 6 de noviembre de 2026</p>
+<p class="data">Avanthis Labs · CADEO · Última actualización: 7 de noviembre de 2026</p>
 <p>Esta política explica cómo la app CADEO trata los datos. Se aplica a la app Android publicada por Avanthis Labs.</p>
 <h2>Resumen</h2>
 <ul>
-<li>Avanthis Labs no recibe tus proyectos, prompts, respuestas ni credenciales.</li>
+<li>Avanthis Labs no recibe tus proyectos, prompts, respuestas ni credenciales, salvo lo que envíes en una denuncia.</li>
 <li>La app no tiene anuncios, analíticas ni informes de fallos.</li>
 <li>Al usar un agente, tus datos van al proveedor de IA que elijas, con tu cuenta.</li>
 </ul>
 <h2>Datos que quedan en el dispositivo</h2>
 <p>La app guarda en tu dispositivo proyectos, terminales, notas, ajustes y los inicios de sesión de los agentes. Estos datos no van a servidores de Avanthis Labs. La copia de seguridad automática de Android está desactivada para la app.</p>
+<p>Si inicias sesión con Google, el correo y el nombre de la cuenta quedan solo en el dispositivo, cifrados, para mostrar con qué cuenta entraste. La fecha en que aceptaste los términos también queda en el dispositivo.</p>
+<p>Los datos no se separan por cuenta: quien use la app en este dispositivo ve los mismos proyectos, terminales e inicios de sesión de los agentes, con o sin cuenta de Google.</p>
 <h2>Datos que salen del dispositivo</h2>
 <p>Al usar la app, estos envíos ocurren por tu acción:</p>
 <ul>
 <li><strong>Agentes de IA:</strong> prompts, respuestas, imágenes adjuntas y archivos del proyecto que lea el agente van al proveedor elegido, como Anthropic, OpenAI o Google.</li>
-<li><strong>Inicio de sesión:</strong> el correo y los datos de la cuenta van al proveedor de la cuenta, en el flujo del propio agente.</li>
+<li><strong>Inicio de sesión de los agentes:</strong> el correo y los datos de la cuenta van al proveedor de la cuenta, en el flujo del propio agente.</li>
+<li><strong>Cuenta de Google de la app:</strong> eliges la cuenta en la pantalla del propio Google, que sigue su política. La app recibe el correo y el nombre y no los envía a nadie.</li>
+<li><strong>Denuncias:</strong> al denunciar una respuesta de un agente, la app abre tu correo dirigido a Avanthis Labs. Van el motivo, los detalles, el nombre de la terminal, el agente, el proveedor, la fecha y, si lo permites, la respuesta, sin tokens ni claves. Como en cualquier correo, también recibimos tu dirección. Lo usamos para evaluar el caso y lo guardamos hasta 12 meses. Cuando corresponda, avisamos al proveedor solo con la respuesta y el motivo, sin tu correo.</li>
 <li><strong>Instalaciones:</strong> las solicitudes de paquetes y skills van a servicios como npm y GitHub.</li>
 <li><strong>Terminal y vista previa web:</strong> van a las direcciones que uses.</li>
 </ul>
@@ -44,18 +49,19 @@ p,li{margin:6px 0}ul{padding-left:20px}.data,nav{color:var(--suave);font-size:14
 </ul>
 <h2>Tu elección</h2>
 <p>La app pide tu aceptación antes del primer uso de un agente. Sin ella, la app funciona como terminal y los agentes no se abren. Puedes cambiarlo en Configuración › Seguridad. Desactivarlo no borra lo que el proveedor ya recibió.</p>
+<p>Iniciar sesión con Google es opcional. Para salir, usa Configuración › Seguridad › Cuenta de Google: se borran el correo y el nombre guardados, y lo demás sigue en el dispositivo. Quitar el acceso de la app en <a href="https://myaccount.google.com/connections" target="_blank" rel="noopener">myaccount.google.com/connections</a> termina el vínculo en Google, pero solo cerrar la sesión borra lo que está en el dispositivo.</p>
 <h2>Datos de otras personas</h2>
 <p>Tus proyectos pueden contener datos personales de terceros. Eres responsable de lo que envías a los agentes.</p>
 <h2>Seguridad</h2>
 <p>La comunicación entre las partes internas de la app queda en el dispositivo, protegida por un token que solo existe en memoria. Las acciones críticas piden huella o PIN cuando el dispositivo tiene bloqueo de pantalla. Los agentes se comunican con los proveedores por conexiones cifradas. Lo que escribas en el terminal puede usar cualquier conexión, incluso sin cifrar.</p>
-<h2>Conservación y eliminación</h2>
-<p>Los datos quedan en el dispositivo hasta que los borres. Usa "Borrar todo" en configuración de la app o desinstálala. Para lo que tenga un proveedor, usa sus canales.</p>
+<h2 id="excluir">Conservación y eliminación</h2>
+<p>Los datos quedan en el dispositivo hasta que los borres. Usa "Borrar todos los datos" en Configuración › Datos, que también quita la cuenta de Google, o desinstala la app. El registro de la aceptación de los términos queda hasta que desinstales la app. Para lo que tenga un proveedor, usa sus canales.</p>
 <h2>Tus derechos</h2>
-<p>La Ley General de Protección de Datos de Brasil (Ley 13.709/2018) garantiza derechos como confirmación, acceso, corrección, eliminación y revocación del consentimiento. Como Avanthis Labs no recibe tus datos, la mayoría de estas solicitudes se resuelven en la app o con el proveedor. Para dudas, usa el contacto de abajo.</p>
+<p>La Ley General de Protección de Datos de Brasil (Ley 13.709/2018) garantiza derechos como confirmación, acceso, corrección, eliminación y revocación del consentimiento. El inicio de sesión con Google se basa en tu consentimiento, que revocas al cerrar la sesión. Fuera de las denuncias que envíes, Avanthis Labs no recibe tus datos, y la mayoría de estas solicitudes se resuelven en la app o con el proveedor. Para dudas, usa el contacto de abajo.</p>
 <h2>Menores</h2>
 <p>La app es una herramienta de desarrollo y no está destinada a menores.</p>
 <h2>Cambios</h2>
-<p>Si la app empieza a tratar nuevos datos, como inicio de sesión propio o licencia, esta política se actualizará antes del cambio.</p>
+<p>Si la app empieza a tratar nuevos datos, como licencia o un servidor de Avanthis Labs, esta política se actualizará antes del cambio.</p>
 <h2>Contacto</h2>
 <p>Avanthis Labs (nombre provisional). Correo de privacidad: <a href="mailto:thbs.profissional@gmail.com">thbs.profissional@gmail.com</a>.</p>
 </main>
